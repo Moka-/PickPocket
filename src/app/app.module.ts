@@ -5,14 +5,14 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { ShopComponent } from './shop/shop.component';
-import { AppRoutingModule, routableComponents } from './/app-routing.module';
+import { AppRoutingModule, RoutableComponents } from './/app-routing.module';
 import { MaterialModule } from './material/material.module';
 import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    routableComponents,
+    RoutableComponents,
     AboutComponent,
     WelcomeComponent,
     ShopComponent,
